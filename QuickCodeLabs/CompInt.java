@@ -6,7 +6,7 @@ public class CompInt
         double amountMonth = 500.0; // amount deposit each month
         double principal = 2000.0; // initial amount before interest
         double rate = 0.06; // interest rate
-        System.out.println("Hello World");
+        
         for(int years = 1; years <= 40; years++)
         {
 
