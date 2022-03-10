@@ -8,9 +8,9 @@ public class PrintArrays {
         {
             System.out.printf(" %d ", MyArray[index]);
         }
-        System.out.println();
+        System.out.println("\n");
 
-        PrintOneDArray();
+        PrintOneDArray(MyArray);
     
         System.out.println("Print My2DArray");
         int[][] My2DArray = {{1,2,3}, {4,5}};
@@ -21,19 +21,19 @@ public class PrintArrays {
             {
                 System.out.printf(" %d ", My2DArray[row][col]);
             }
-            System.out.println();
+            System.out.println("\n");
         }
 
     }
 
     public static void PrintOneDArray(int[] array)
     {
-        System.out.println(" Printing with the method.");
-        for(int index = 0; index <array.length; index++)
+        System.out.println("Printing with the method.");
+        for(int index = 0; index < array.length; index++)
         {
             System.out.printf(" %d ", array[index]);
         }
-        System.out.println();
+        System.out.println('\n');
     }
 
 }
