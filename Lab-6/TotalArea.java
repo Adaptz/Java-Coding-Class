@@ -57,7 +57,7 @@ public class TotalArea {
 
             loopnum++;
         }
-
+        if( loopnum != 2 )
         System.out.printf("The total area is equal to %.2f units^2", totalArea);
    }
 
