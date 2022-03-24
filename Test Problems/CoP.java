@@ -2,18 +2,19 @@ public class CoP
 {
     public static void main(String[] args)
     {
-        System.out.printf("%,.2f - %,.2f = %,.2f", CalcMyMoney(40), CalcMyMoney(30), (CalcMyMoney(40) - CalcMyMoney(30)));
+        double mA = 500; 
+        double tI = 2000; 
+        double iR = .06;
+
+        System.out.printf("%,.2f - %,.2f = %,.2f", CalcMyMoney(40, mA , tI, iR), CalcMyMoney(30, mA , tI, iR), (CalcMyMoney(40, mA , tI, iR) - CalcMyMoney(30, mA , tI, iR)));
+        //System.out.printf("%,.2f", CalcMyMoney(1, mA , tI, iR));
     }
 
-public static double CalcMyMoney(double totalyear)
+public static double CalcMyMoney(double totalyear, double monthlyAmount, double totalInvestment, double intrestRate)
     {
-        double monthlyAmount = 500;
-        double totalInvestment = 2000;
-
-
         for(double year = 1;  year <= totalyear; year++)
         {
-            totalInvestment = (totalInvestment + (monthlyAmount * 12) * (.6 + 1) );
+            totalInvestment = (totalInvestment + (monthlyAmount * 12)) * (intrestRate + 1);
         }
         return totalInvestment;
     }

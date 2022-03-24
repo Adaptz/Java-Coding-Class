@@ -4,8 +4,7 @@ import java.util.Arrays;
 public class IsDivisibleBy {
     public static void main(String[] args)
     {
-        int[] array;
-        array = new int[100000];
+        int[] array = new int[100000];;
         int number = 1;
         int loopnum = 1;
 
