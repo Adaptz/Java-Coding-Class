@@ -6,7 +6,9 @@ public class CoP
         double tI = 2000; 
         double iR = .06;
 
-        System.out.printf("%,.2f - %,.2f = %,.2f", CalcMyMoney(40, mA , tI, iR), CalcMyMoney(30, mA , tI, iR), (CalcMyMoney(40, mA , tI, iR) - CalcMyMoney(30, mA , tI, iR)));
+        System.out.printf("%,.2f - %,.2f = %,.2f (CoP)", 
+        CalcMyMoney(40, mA , tI, iR), CalcMyMoney(30, mA , tI, iR),
+         (CalcMyMoney(40, mA , tI, iR) - CalcMyMoney(30, mA , tI, iR)));
         //System.out.printf("%,.2f", CalcMyMoney(1, mA , tI, iR));
     }
 
