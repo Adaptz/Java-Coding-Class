@@ -5,7 +5,10 @@ public class BarChartQ {
         int[] array = {3, 5, 10, 14, 16, 19, 20, 25, 28, 35, 37, 40, 51, 52, 
             53, 54, 56, 59, 72, 73, 74, 77, 78, 81, 83, 86, 90, 93, 95, 100};
 
-            for(int counter = 0; counter <= 10; counter++) //print barchart
+            /*System.out.printf("Grade distribution is \n %d \n", MyBarChart.outputBarChart(array));*/ 
+            MyBarChart.outputBarChart(array);
+
+            /*for(int counter = 0; counter <= 10; counter++) //print barchart
             { 
                 if ( counter == 10 )
                 System.out.printf( "%5d: ", 100 ); 
@@ -22,7 +25,7 @@ public class BarChartQ {
                 }
 
                 System.out.println();
-            }
+            } */
 
             int maximumValue = array[0]; // find maximum value
             for(int countermax = 0; countermax < array.length - 2; countermax++)
