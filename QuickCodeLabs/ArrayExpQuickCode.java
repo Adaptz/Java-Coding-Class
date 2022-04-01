@@ -32,7 +32,5 @@ public class ArrayExpQuickCode
             System.out.printf(" %d ",array[index]);
         
         System.out.println();
-        
-
     }
 }

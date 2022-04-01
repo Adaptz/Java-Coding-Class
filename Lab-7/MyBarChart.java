@@ -2,6 +2,8 @@ public class MyBarChart
 {
     public static void outputBarChart(int [] array)
     {
+        System.out.println("Overall grade distribution:");
+
         for(int counter = 0; counter <= 10; counter++) //print barchart
         { 
             if ( counter == 10 )
