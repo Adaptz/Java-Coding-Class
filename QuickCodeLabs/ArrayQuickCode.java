@@ -1,6 +1,8 @@
 public class ArrayQuickCode
 {
    // create and output two-dimensional arrays
+
+   //print every even or odd as a 0 for actual quiz
    public static void main( String[] args )
    {
       int[][] array1 = { { 1, 2, 3 }, { 6, 5 }, { 8 } }; 
