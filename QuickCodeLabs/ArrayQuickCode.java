@@ -24,12 +24,23 @@ public static int outputArray( int[][] array )
             int rowTotal = 0;
 
             for(int column = 0; column < array[row].length; column++)
-            {
-                System.out.printf("%d ", array[row][column] );
-                rowTotal += array[row][column];
+            {  
+               /*System.out.print(array[row][column] % 2 == 1 ? System.out.printf("%d ", array[row][column] ) : "0 ");
+               array[row][column] = 0; */
+
+               if( array[row][column] % 2 == 1)
+                  System.out.printf("%d ", array[row][column] );
+               else
+               {
+                  array[row][column] = 0;
+                  System.out.printf("%d ", array[row][column] );
+               }
+
+               rowTotal += array[row][column];
             }
 
-            System.out.printf("= %d\n", rowTotal);
+            System.out.println();
+            // System.out.printf("= %d\n", rowTotal);
 
             arrayTotal += rowTotal;
         }
