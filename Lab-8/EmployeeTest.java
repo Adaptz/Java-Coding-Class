@@ -11,7 +11,7 @@ public class EmployeeTest
 
       // create two Employees; count should be 2
       Employee e1 = new Employee( "Susan", "Baker" );
-      Employee e2 = new Employee( "Bob", "Blue" );
+      Employee e2 = new Employee( "Brody", "Kerr" );
    
       // show that count is 2 after creating two Employees
       System.out.println( "\nEmployees after instantiation: " );
