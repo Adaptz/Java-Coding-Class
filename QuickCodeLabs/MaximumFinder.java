@@ -19,7 +19,9 @@ public class MaximumFinder
       double result = maximum( number1, number2, number3 ); 
 
       // display maximum value 
-      System.out.println( "Maximum is: " + result ); 
+      System.out.println( "Maximum is: " + result );
+
+      input.close();
    } // end main
 
    // returns the maximum of its three double parameters

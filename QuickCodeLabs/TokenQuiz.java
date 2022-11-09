@@ -16,6 +16,6 @@ public static void main( String[] args )
     for(String token : tokens)
     System.out.println(token);
 
-
+    input.close();
 } // end class TokenTest
 }
