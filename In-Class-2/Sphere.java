@@ -18,6 +18,8 @@ public class Sphere
       System.out.printf( "Volume 1: %f\n", SpVol); //Calling Method Directly
       System.out.printf( "Volume 2: %f\n", object.sphereVolume2( radius ) ); //Calling Method w/Object
       System.out.printf( "Volume 3: %f\n", MySphere.sphereVolume3( radius ) ); //Calling Method w/Class Name
+
+      input.close();
    } // end method determineSphereVolume
 
    // calculate and return sphere volume
